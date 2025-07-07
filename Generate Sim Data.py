@@ -57,7 +57,7 @@ def generate_random_vehicle_model():
     return f"{random.choice(manufacturers)} {random.choice(models)}"
 
 # Constants for generating data
-number_of_records = 10
+number_of_records = 5
 device_make = "ACCOLADE"
 device_model = "ACONITS140I"
 primary_operators = ['BHA', 'Airtel', 'Jio']
