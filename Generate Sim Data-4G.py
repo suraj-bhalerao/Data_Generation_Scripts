@@ -16,7 +16,7 @@ def generate_random_imei():
 
 # Function to generate random SERIAL_NO
 def generate_random_serial_no():
-    return 'ACON4IA' + ''.join([str(random.randint(0, 9)) for _ in range(10)])
+    return f'{device_model}' + ''.join([str(random.randint(0, 9)) for _ in range(10)])
 
 # Function to generate random engine number
 def generate_random_engine_no():
@@ -59,7 +59,7 @@ def generate_random_vehicle_model():
 # Constants for generating data
 number_of_records = 5
 device_make = "ACCOLADE"
-device_model = "ACONITS140I"
+device_model = "ACON4NA"
 primary_operators = ['BHA', 'Airtel', 'Jio']
 secondary_operators = ['BSNL', 'Vodafone']
 sim_status_options = ['Active', 'Inactive']
@@ -72,7 +72,7 @@ activation_start_date_range = datetime(current_year - 5, 1, 1)
 activation_end_date_range = datetime(current_year + 5, 12, 31)
 
 # File destination
-destination_file = "Card_details_sb.csv"
+destination_file = "Card_details_sb_4G.csv"
 
 # Writing to CSV
 with open(destination_file, mode='w', newline='') as file:

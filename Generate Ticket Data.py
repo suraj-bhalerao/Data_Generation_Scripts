@@ -26,7 +26,7 @@ def generate_random_date(start_date, end_date):
 
 # Constants for the file
 destination_file = "generated_records.csv"
-number_of_records = 100
+number_of_records = 10
 
 # Static fields
 card_status = "Active"
