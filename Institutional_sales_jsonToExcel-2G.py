@@ -37,7 +37,7 @@ expiry_date = start_date + timedelta(days=730)  # 2 years
 # Configuration
 base_vin = "SURAJ30072025"
 device_make = "Accolade"
-device_model = "AEPL051400"
+device_model = "ACONITS140I" 
 uin_no = "ACON4CA032100000069"
 
 # Record generation
